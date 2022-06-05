@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  background-color: rgb(229, 229, 229);
+}
+
+hr {
+  margin: 20px;
+}
+
+.marcar {
+  border: 3px solid red;
+}
+
+.marcar2 {
+  border: 3px solid green;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  width: 100%;
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cut1 input {
+  width: 46%;
+}
+
+.cut3 input {
+  margin: 5px;
+}
+
+.header form input {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 5px;
+  padding-left: 3px;
+  margin: auto 10px;
+}
+
+.header form button {
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 600;
+  padding: 7px 10px;
+}
+
+.header form button:hover {
+  transform: scale(1.1);
+}
+
+header img {
+  width: 60px;
+}
+
+.trybewarts-login {
+  display: flex;
+  padding: 5px;
+}
+
+main {
+  display: flex;
+  height: 83vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.evaluation-form {
+  padding: 30px;
+  width: 675px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logoTrybewarts {
+  width: 300px;
+}
+
+.cut1 {
+  flex-wrap: wrap;
+  width: 650px;
+}
+
+.cut1 label {
+  font-size: 17px;
+}
+
+#house {
+  width: 39%;
+}
+
+.cut-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.familia {
+  display: flex;
+  flex-direction: column;
+}
+
+.cut3 {
+  width: 300px;
+  height: 120px;
+}
+
+.checkboxContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.label-rate {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+footer {
+  width: 100%;
+  height: 7vh;
+  padding: 14px 0;
+  background-color: grey;
+  text-align: center;
+}
